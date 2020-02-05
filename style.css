@@ -1,5 +1,5 @@
 body.login {
-  background: #201a23;
+  background: red;
 }
 body.login h1 a {
   background-image: url("logo.png");
