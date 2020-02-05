@@ -9,7 +9,7 @@ function custom_login_logo() {?>
 <style type="text/css">
  body.login {background:#201a23;}
 body.login h1 a {
-    background-image: url(<?php $plugin_dir_path = dirname(__FILE__);?>/wp-content/plugins/front-door/logo.png);
+    background-image: url(<?php $plugin_dir_path = dirname(__FILE__);?>/wp-content/plugins/stage-door/logo.png);
     background-size: contain;
     height: 60px;
     width: 100%;
@@ -21,8 +21,8 @@ body.login form {
     box-shadow: none;
 }
 
-body.login form .input, 
-body.login input[type=password], 
+body.login form .input,
+body.login input[type=password],
 body.login input[type=text] {
     border-width: 0;
     border-radius: 0;
@@ -40,7 +40,7 @@ body.wp-core-ui .button.button-large {
     padding: 0.5em 3em;
 }
 
-body input[type=checkbox], 
+body input[type=checkbox],
 body input[type=radio] {
     border:none;
     box-shadow: none;
@@ -49,14 +49,14 @@ body input[type=radio] {
 body.login #nav {
     margin: 2em 0;
     padding: 0;
-}    
-body.login #nav a {    
+}
+body.login #nav a {
         display: inline-block;
     background: #fe4d43;
     padding: 1em 2em;
-    color: white;    
+    color: white;
     }
-    
+
 body.login #backtoblog {
     font-size: 1em;
     padding: 0;
