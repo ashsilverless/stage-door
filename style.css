@@ -32,6 +32,7 @@ body.wp-core-ui .button.button-large {
   color: white;
   border: none;
   border-radius: 0;
+  height: auto;
   padding: 0.5em 3em;
 }
 body input[type="checkbox"],
